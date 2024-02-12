@@ -23,10 +23,10 @@ document.getElementById('siBtn').addEventListener('click', function() {
     // Mostrar el mensaje específico
     document.getElementById('messageContainer').style.display = 'block';
     if(noButtonState == 1000){
-        document.getElementById('messageContainer').innerHTML = 'Bueno al final sí iremos sí o sí jajajaja';
+        document.getElementById('messageContainer').innerHTML = 'Bueno al final sí iremos sí o sí jajajaja <br> Lugar: Fusion Wong <br> Hora: 7:00 pm <br> Fecha: 14 de febrero <br> Te amo mucho, gracias por ser mi novia <3 <br> ';
     }
     else {
-        document.getElementById('messageContainer').innerHTML = 'Besitos, te amo mucho <3 jeje';
+        document.getElementById('messageContainer').innerHTML = 'Besitos, te amo mucho <3 jeje <br> Lugar: Fusion Wong <br> Hora: 7:00 pm <br> Fecha: 14 de febrero <br> Te amo mucho, gracias por ser mi novia <3 <br>';
     }
 
     // Mostrar otro gif después de 3 segundos
